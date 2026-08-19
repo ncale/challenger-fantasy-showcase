@@ -1,0 +1,25 @@
+{
+  "name": "@challenger-fantasy/adapters",
+  "type": "module",
+  "private": true,
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "test": "echo 'no tests yet'"
+  },
+  "x-quality": "typecheck-only",
+  "dependencies": {
+    "playwright": "^1.52.0",
+    "@challenger-fantasy/core": "workspace:*",
+    "@challenger-fantasy/db": "workspace:*",
+    "@challenger-fantasy/ingest-queue": "workspace:*",
+    "@challenger-fantasy/logger": "workspace:*",
+    "@challenger-fantasy/parsers": "workspace:*",
+    "@challenger-fantasy/schemas": "workspace:*",
+    "@challenger-fantasy/utils": "workspace:*",
+    "zod": "catalog:zod"
+  }
+}
