@@ -1,0 +1,43 @@
+{
+  "name": "@challenger-fantasy/worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "types": "./src/api-client.ts",
+  "exports": {
+    "./api-client": {
+      "types": "./dist/worker/src/api-client.d.ts",
+      "default": "./src/api-client.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "test": "echo 'no tests yet'",
+    "tsc:version": "tsc --version",
+    "build:types": "tsc --project tsconfig.json",
+    "typegen:cloudflare": "wrangler types",
+    "dev": "wrangler dev --test-scheduled",
+    "deploy": "wrangler deploy --outdir dist --upload-source-maps --var SENTRY_RELEASE:$(sentry-cli releases propose-version)",
+    "sentry:sourcemaps": "_SENTRY_RELEASE=$(sentry-cli releases propose-version) && sentry-cli releases new $_SENTRY_RELEASE --org=challenger-fantasy --project=cloudflare-worker && sentry-cli sourcemaps upload --org=challenger-fantasy --project=cloudflare-worker --release=$_SENTRY_RELEASE --strip-prefix 'dist/..' dist",
+    "postdeploy": "bun run sentry:sourcemaps"
+  },
+  "x-quality": "typecheck-only",
+  "dependencies": {
+    "@challenger-fantasy/core": "workspace:*",
+    "@challenger-fantasy/shared": "workspace:*",
+    "@challenger-fantasy/db": "workspace:*",
+    "@challenger-fantasy/logger": "workspace:*",
+    "@challenger-fantasy/models": "workspace:*",
+    "@challenger-fantasy/schemas": "workspace:*",
+    "@hono/zod-openapi": "catalog:zod",
+    "@sentry/cloudflare": "^10.49.0",
+    "hono": "catalog:api",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251202.0",
+    "@sentry/cli": "^2",
+    "@types/node": "22.13.0",
+    "wrangler": "catalog:"
+  }
+}
