@@ -1,0 +1,21 @@
+{
+  "name": "@challenger-fantasy/api-queries",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "test": "echo 'no tests yet'"
+  },
+  "x-quality": "typecheck-only",
+  "dependencies": {
+    "@challenger-fantasy/types": "workspace:*",
+    "@challenger-fantasy/core": "workspace:*",
+    "@challenger-fantasy/worker": "workspace:*",
+    "@tanstack/react-query": "catalog:tanstack"
+  }
+}
