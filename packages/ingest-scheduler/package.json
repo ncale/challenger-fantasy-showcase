@@ -1,0 +1,17 @@
+{
+  "name": "@challenger-fantasy/ingest-scheduler",
+  "type": "module",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "test": "echo 'no tests yet'",
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "x-quality": "typecheck-only",
+  "dependencies": {
+    "@challenger-fantasy/ingest-queue": "workspace:*",
+    "@challenger-fantasy/logger": "workspace:*"
+  }
+}

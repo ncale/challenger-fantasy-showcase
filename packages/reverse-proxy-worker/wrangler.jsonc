@@ -1,0 +1,19 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "challenger-fantasy-reverse-proxy",
+  "main": "index.ts",
+  "compatibility_date": "2025-09-04",
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "ph.challengerfantasy.com",
+      "custom_domain": true
+    }
+  ]
+}

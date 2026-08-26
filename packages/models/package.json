@@ -1,0 +1,19 @@
+{
+  "name": "@challenger-fantasy/models",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "test": "echo 'no tests yet'"
+  },
+  "x-quality": "typecheck-only",
+  "dependencies": {},
+  "devDependencies": {
+    "@challenger-fantasy/types": "workspace:*",
+    "@challenger-fantasy/schemas": "workspace:*"
+  }
+}

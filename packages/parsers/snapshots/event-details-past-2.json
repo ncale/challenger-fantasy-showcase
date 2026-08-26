@@ -1,0 +1,207 @@
+{
+  "name": "UFC 319: Du Plessis vs. Chimaev",
+  "eventDate": {
+    "iso": "2025-08-16T00:00:00.000Z",
+    "raw": "August 16, 2025"
+  },
+  "location": {
+    "city": "Chicago",
+    "stateOrRegion": "Illinois",
+    "country": "USA",
+    "raw": "Chicago, Illinois, USA"
+  },
+  "fights": [
+    {
+      "externalId": "12cedec11b37ddc0",
+      "fighter1": {
+        "externalId": "767755fd74662dbf",
+        "name": "Khamzat Chimaev"
+      },
+      "fighter2": {
+        "externalId": "0d7b51c9d2649a6e",
+        "name": "Dricus Du Plessis"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "9fa6a029f7f8241c",
+      "fighter1": {
+        "externalId": "396fe87b84ac2e1c",
+        "name": "Lerone Murphy"
+      },
+      "fighter2": {
+        "externalId": "5537efc6e496dd84",
+        "name": "Aaron Pico"
+      },
+      "weightClass": {
+        "weightClass": "Featherweight",
+        "raw": "Featherweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "42585ce706c086de",
+      "fighter1": {
+        "externalId": "7ee0fd831c0fe7c3",
+        "name": "Carlos Prates"
+      },
+      "fighter2": {
+        "externalId": "b997be68943010fc",
+        "name": "Geoff Neal"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "9939d7073462e07e",
+      "fighter1": {
+        "externalId": "a67d071163962af8",
+        "name": "Michael Page"
+      },
+      "fighter2": {
+        "externalId": "13a0275fa13c4d26",
+        "name": "Jared Cannonier"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "82338ba457fbe87f",
+      "fighter1": {
+        "externalId": "c96d9178c9ed9e62",
+        "name": "Tim Elliott"
+      },
+      "fighter2": {
+        "externalId": "d33da8a3d82bdb62",
+        "name": "Kai Asakura"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "5efd13a12be06706",
+      "fighter1": {
+        "externalId": "d1feea7a4bdcd503",
+        "name": "Baisangur Susurkaev"
+      },
+      "fighter2": {
+        "externalId": "64b12fe31be7560c",
+        "name": "Eric Nolan"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "5b880d10b0ed7acc",
+      "fighter1": {
+        "externalId": "0d65c432720accb9",
+        "name": "Michal Oleksiejczuk"
+      },
+      "fighter2": {
+        "externalId": "6ac9bc2953c47345",
+        "name": "Gerald Meerschaert"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "a2eafd9e1d5031b1",
+      "fighter1": {
+        "externalId": "8e5d953bdb9ae5e7",
+        "name": "Loopy Godinez"
+      },
+      "fighter2": {
+        "externalId": "6a1901c62ab3870f",
+        "name": "Jessica Andrade"
+      },
+      "weightClass": {
+        "weightClass": "Women's Strawweight",
+        "raw": "Women's Strawweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "1d8dc0fb5d47357f",
+      "fighter1": {
+        "externalId": "262a7d06203657e6",
+        "name": "Alexander Hernandez"
+      },
+      "fighter2": {
+        "externalId": "971246648e162f0d",
+        "name": "Chase Hooper"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "bc63f1b2e52f603e",
+      "fighter1": {
+        "externalId": "7cbf7c78d3b34218",
+        "name": "Drakkar Klose"
+      },
+      "fighter2": {
+        "externalId": "64a50dad704d1d49",
+        "name": "Edson Barboza"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "88020d22cf905792",
+      "fighter1": {
+        "externalId": "9d62c2d8ee151f08",
+        "name": "Karine Silva"
+      },
+      "fighter2": {
+        "externalId": "27b388f0aab49780",
+        "name": "Dione Barbosa"
+      },
+      "weightClass": {
+        "weightClass": "Women's Flyweight",
+        "raw": "Women's Flyweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "68c423c7119004f3",
+      "fighter1": {
+        "externalId": "2fe9032955c2e013",
+        "name": "Joseph Morales"
+      },
+      "fighter2": {
+        "externalId": "30cad5a751adcb48",
+        "name": "Alibi Idiris"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": "fighter1"
+    }
+  ]
+}

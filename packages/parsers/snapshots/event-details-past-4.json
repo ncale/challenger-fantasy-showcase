@@ -1,0 +1,191 @@
+{
+  "name": "UFC 317: Topuria vs. Oliveira",
+  "eventDate": {
+    "iso": "2025-06-28T00:00:00.000Z",
+    "raw": "June 28, 2025"
+  },
+  "location": {
+    "city": "Las Vegas",
+    "stateOrRegion": "Nevada",
+    "country": "USA",
+    "raw": "Las Vegas, Nevada, USA"
+  },
+  "fights": [
+    {
+      "externalId": "7a64d63e12618ba7",
+      "fighter1": {
+        "externalId": "54f64b5e283b0ce7",
+        "name": "Ilia Topuria"
+      },
+      "fighter2": {
+        "externalId": "07225ba28ae309b6",
+        "name": "Charles Oliveira"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "8308464729ea7c40",
+      "fighter1": {
+        "externalId": "a0f0004aadf10b71",
+        "name": "Alexandre Pantoja"
+      },
+      "fighter2": {
+        "externalId": "853eb0dd5c0e2149",
+        "name": "Kai Kara-France"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "f722b96ae6862843",
+      "fighter1": {
+        "externalId": "17e97649403ba428",
+        "name": "Joshua Van"
+      },
+      "fighter2": {
+        "externalId": "6e15f63b6c2e2c15",
+        "name": "Brandon Royval"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "1ea9ad3b6e1cba79",
+      "fighter1": {
+        "externalId": "08af939f41b5a57b",
+        "name": "Beneil Dariush"
+      },
+      "fighter2": {
+        "externalId": "b6452706b373eea1",
+        "name": "Renato Moicano"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "f6a3c78f15ff26c7",
+      "fighter1": {
+        "externalId": "6e743a33d56bdaa4",
+        "name": "Payton Talbott"
+      },
+      "fighter2": {
+        "externalId": "9256f591b30c073e",
+        "name": "Felipe Lima"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "958522de54ccc536",
+      "fighter1": {
+        "externalId": "d1c65d2cf2925ddd",
+        "name": "Gregory Rodrigues"
+      },
+      "fighter2": {
+        "externalId": "0a1942069c9ad6b6",
+        "name": "Jack Hermansson"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "2f523b757f7f33a2",
+      "fighter1": {
+        "externalId": "7d6ceff6747f2de2",
+        "name": "Jose Delgado"
+      },
+      "fighter2": {
+        "externalId": "41cc71cbf210e0fe",
+        "name": "Hyder Amil"
+      },
+      "weightClass": {
+        "weightClass": "Featherweight",
+        "raw": "Featherweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "815ff62ca8e217be",
+      "fighter1": {
+        "externalId": "68d4a891e5cf2029",
+        "name": "Tracy Cortez"
+      },
+      "fighter2": {
+        "externalId": "36541f1e6c5d4955",
+        "name": "Viviane Araujo"
+      },
+      "weightClass": {
+        "weightClass": "Women's Flyweight",
+        "raw": "Women's Flyweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "d7be78c400e7e0f9",
+      "fighter1": {
+        "externalId": "809bd1a871491508",
+        "name": "Terrance McKinney"
+      },
+      "fighter2": {
+        "externalId": "19c591115a58982c",
+        "name": "Viacheslav Borshchev"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "9bff9fe298e63357",
+      "fighter1": {
+        "externalId": "85497ffd934ecf7e",
+        "name": "Jacobe Smith"
+      },
+      "fighter2": {
+        "externalId": "d8da10db80131bec",
+        "name": "Niko Price"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "043172689e415438",
+      "fighter1": {
+        "externalId": "25f9a5f3e8a52618",
+        "name": "Jhonata Diniz"
+      },
+      "fighter2": {
+        "externalId": "ab2a4b5e04dc5fe9",
+        "name": "Alvin Hines"
+      },
+      "weightClass": {
+        "weightClass": "Heavyweight",
+        "raw": "Heavyweight"
+      },
+      "winner": "fighter1"
+    }
+  ]
+}

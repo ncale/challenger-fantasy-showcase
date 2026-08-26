@@ -1,0 +1,122 @@
+---
+import { LINKS, SITE_CONTENT } from "@challenger-fantasy/core";
+import { Github, Mail } from "@lucide/astro";
+import HeaderLogo from "./Branding/HeaderLogo.astro";
+import Discord from "./Icons/Discord.astro";
+import Instagram from "./Icons/Instagram.astro";
+// import X from "./Icons/X.astro";
+// If you prefer inline SVG, remove this import and paste an <svg> where <Mail /> is used.
+---
+
+<footer class="bg-sidebar text-sidebar-foreground shadow-sm border-t">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-36 pt-12">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+      <!-- Left Column - Copyright -->
+      <div class="md:col-span-2 space-y-0.5">
+        <HeaderLogo size="sm" />
+        <p class="text-sm mt-3">{SITE_CONTENT.FOOTER.COPYRIGHT_TEXT}</p>
+        <p class="text-xs text-muted-foreground">
+          {SITE_CONTENT.FOOTER.COPYRIGHT_SUBTEXT}
+        </p>
+      </div>
+
+      <!-- Legal Links -->
+      <div class="space-y-2">
+        <p class="text-sm font-medium mb-3">Legal</p>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a
+            href="/privacy"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors w-fit"
+          >
+            Privacy Policy
+          </a>
+          <a
+            href="/tos"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors w-fit"
+          >
+            Terms of Service
+          </a>
+        </div>
+      </div>
+
+      <!-- Resources Links -->
+      <div class="space-y-2">
+        <p class="text-sm font-medium mb-3">Resources</p>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a
+            href="/about"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors w-fit"
+          >
+            About
+          </a>
+        </div>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a
+            href="/support"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors w-fit"
+          >
+            Support
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column - Social Links -->
+      <div>
+        <p class="text-sm font-medium mb-3">Connect</p>
+        <div class="flex space-x-3">
+          <a
+            href={LINKS.DISCORD_INVITE}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors"
+          >
+            <Discord />
+            <span class="sr-only">Discord</span>
+          </a>
+
+          <!-- Example X/Twitter link (uncomment if needed)
+          <a
+            href={LINKS.TWITTER}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors"
+          >
+            <X />
+            <span class="sr-only">X</span>
+          </a>
+          -->
+
+          <a
+            href={LINKS.INSTAGRAM}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors"
+          >
+            <Instagram />
+            <span class="sr-only">Instagram</span>
+          </a>
+
+          <a
+            href={LINKS.CONTACT_EMAIL_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors"
+          >
+            <Mail class="size-4" />
+            <span class="sr-only">Email</span>
+          </a>
+
+          <a
+            href={LINKS.CODE_SHOWCASE}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-muted-foreground hover:text-accent-foreground transition-colors"
+          >
+            <Github class="size-4" />
+            <span class="sr-only">Code Showcase</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

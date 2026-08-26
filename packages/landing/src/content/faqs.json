@@ -1,0 +1,51 @@
+[
+  {
+    "id": "getting-started-contests",
+    "category": "Getting started",
+    "question": "How do contests work?",
+    "answer": "Join a contest before the event locks, draft or pick your fighters, and earn points based on their real performance inside the octagon. Scores update throughout fight night as official UFC stats become available.",
+    "sort": 1
+  },
+  {
+    "id": "getting-started-account",
+    "category": "Getting started",
+    "question": "How do I create an account?",
+    "answer": "Download the app, enter your email, and use the one-time code we send you to sign in. No password needed.",
+    "sort": 2
+  },
+  {
+    "id": "scoring-updates",
+    "category": "Scoring & contests",
+    "question": "When do scores update?",
+    "answer": "Scores update throughout fight night as official UFC stats become available. There may be a short delay between a fight ending and scores reflecting the result.",
+    "sort": 3
+  },
+  {
+    "id": "scoring-cancelled",
+    "category": "Scoring & contests",
+    "question": "What happens if a fight is cancelled or changed?",
+    "answer": "We reserve the right to cancel or void contests affected by event cancellations, postponements, or other circumstances outside our control.",
+    "sort": 4
+  },
+  {
+    "id": "scoring-draft",
+    "category": "Scoring & contests",
+    "question": "How is the draft different from regular fantasy?",
+    "answer": "Instead of picking a static lineup, you and your league take turns drafting fighters from the card before the event locks. It's the only UFC fantasy draft system available.",
+    "sort": 5
+  },
+  {
+    "id": "account-delete",
+    "category": "Account",
+    "question": "How do I delete my account?",
+    "answer": "You can delete your account directly from inside the app. Go to your profile settings and select \"Delete Account.\"",
+    "sort": 6
+  },
+  {
+    "id": "account-username",
+    "category": "Account",
+    "question": "Can I change my username?",
+    "answer": "Yes, you can update your username in your profile settings inside the app.",
+    "sort": 7
+  }
+]

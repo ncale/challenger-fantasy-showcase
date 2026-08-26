@@ -1,0 +1,223 @@
+{
+  "name": "UFC Fight Night: Song vs. Figueiredo",
+  "eventDate": {
+    "iso": "2026-05-30T00:00:00.000Z",
+    "raw": "May 30, 2026"
+  },
+  "location": {
+    "city": "Macau",
+    "stateOrRegion": null,
+    "country": "China",
+    "raw": "Macau, China"
+  },
+  "fights": [
+    {
+      "externalId": "423f32dd018ac218",
+      "fighter1": {
+        "externalId": "efb96bf3e9ada36f",
+        "name": "Song Yadong"
+      },
+      "fighter2": {
+        "externalId": "aa72b0f831d0bfe5",
+        "name": "Deiveson Figueiredo"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "a23d84f15207e459",
+      "fighter1": {
+        "externalId": "8a65fd9ba31fd3f7",
+        "name": "Zhang Mingyang"
+      },
+      "fighter2": {
+        "externalId": "a495f599e787614f",
+        "name": "Alonzo Menifield"
+      },
+      "weightClass": {
+        "weightClass": "Light Heavyweight",
+        "raw": "Light Heavyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "f74e4afdf6ae29d1",
+      "fighter1": {
+        "externalId": "f14cf73e51b29254",
+        "name": "Sergei Pavlovich"
+      },
+      "fighter2": {
+        "externalId": "17923f676f100e16",
+        "name": "Tallison Teixeira"
+      },
+      "weightClass": {
+        "weightClass": "Heavyweight",
+        "raw": "Heavyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "00959e29e4a10e26",
+      "fighter1": {
+        "externalId": "d33da8a3d82bdb62",
+        "name": "Kai Asakura"
+      },
+      "fighter2": {
+        "externalId": "5c84f673b7bb7c15",
+        "name": "Cameron Smotherman"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "c1c9dfd0c0952f18",
+      "fighter1": {
+        "externalId": "a845f0735bc67405",
+        "name": "Jake Matthews"
+      },
+      "fighter2": {
+        "externalId": "a53d30163304aa6e",
+        "name": "Carlston Harris"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "7e8749cbf32ef1f8",
+      "fighter1": {
+        "externalId": "ab2b4ff41d6ebe0f",
+        "name": "Alex Perez"
+      },
+      "fighter2": {
+        "externalId": "3cf18e01cb6cbde3",
+        "name": "Sumudaerji"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "f6d09973de0f83e7",
+      "fighter1": {
+        "externalId": "e6666480a830f764",
+        "name": "YiSak Lee"
+      },
+      "fighter2": {
+        "externalId": "33a86e839ad202d8",
+        "name": "Luis Felipe Dias"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "bc0b3c16246e0d1d",
+      "fighter1": {
+        "externalId": "e0664abaa023fd6f",
+        "name": "Ding Meng"
+      },
+      "fighter2": {
+        "externalId": "20a0e4cc5227c117",
+        "name": "Jose Henrique"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "3bc0190fb17ba42f",
+      "fighter1": {
+        "externalId": "7d420039bbfe7c1a",
+        "name": "Aoriqileng"
+      },
+      "fighter2": {
+        "externalId": "8e6654e9f0461b8f",
+        "name": "Cody Haddon"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "224dce2c0b03e7eb",
+      "fighter1": {
+        "externalId": "2f43a3e82661fa99",
+        "name": "Rei Tsuruya"
+      },
+      "fighter2": {
+        "externalId": "29162be25ebef5f0",
+        "name": "Luis Gurule"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "3f719885c9916e06",
+      "fighter1": {
+        "externalId": "f0feeb2192937424",
+        "name": "Angela Hill"
+      },
+      "fighter2": {
+        "externalId": "2cdb479a0ef0ee1d",
+        "name": "Xiong Jingnan"
+      },
+      "weightClass": {
+        "weightClass": "Women's Strawweight",
+        "raw": "Women's Strawweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "34d5ec676fb5bce3",
+      "fighter1": {
+        "externalId": "6f4ec5aa3eced219",
+        "name": "Zhu Kangjie"
+      },
+      "fighter2": {
+        "externalId": "2b266e623e20737a",
+        "name": "Rodrigo Vera"
+      },
+      "weightClass": {
+        "weightClass": "Featherweight",
+        "raw": "Featherweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "370ff29489150560",
+      "fighter1": {
+        "externalId": "4e30e4250cb08b61",
+        "name": "Loma Lookboonmee"
+      },
+      "fighter2": {
+        "externalId": "bc7d1ad49fcb2d08",
+        "name": "Jaqueline Amorim"
+      },
+      "weightClass": {
+        "weightClass": "Women's Strawweight",
+        "raw": "Women's Strawweight"
+      },
+      "winner": null
+    }
+  ]
+}

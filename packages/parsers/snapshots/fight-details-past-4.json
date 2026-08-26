@@ -1,0 +1,267 @@
+{
+  "eventExternalId": "421ccfc6ddb17958",
+  "eventName": "UFC 319: Du Plessis vs. Chimaev",
+  "fighter1": {
+    "externalId": "b997be68943010fc",
+    "name": "Geoff Neal"
+  },
+  "fighter2": {
+    "externalId": "7ee0fd831c0fe7c3",
+    "name": "Carlos Prates"
+  },
+  "weightClass": {
+    "weightClass": "Welterweight",
+    "raw": "Welterweight Bout"
+  },
+  "title": {
+    "isTitle": false
+  },
+  "bonusInfo": {
+    "fightOfTheNightBonus": false,
+    "performanceBonus": true,
+    "submissionBonus": false,
+    "knockoutBonus": false
+  },
+  "result": {
+    "winner": "fighter2",
+    "method": "KO/TKO",
+    "round": 1,
+    "time": {
+      "seconds": 299,
+      "raw": "4:59"
+    }
+  },
+  "timeFormat": "3 Rnd (5-5-5)",
+  "referee": "Jason Herzog",
+  "details": "Spinning Back Elbow to Head At Distance",
+  "generalStats": {
+    "fighter1": {
+      "knockdowns": 0,
+      "significantStrikes": {
+        "landed": 25,
+        "attempted": 49
+      },
+      "significantStrikePercentage": 51,
+      "totalStrikes": {
+        "landed": 26,
+        "attempted": 50
+      },
+      "takedowns": {
+        "landed": 0,
+        "attempted": 1
+      },
+      "takedownPercentage": 0,
+      "submissionAttempts": 0,
+      "reversals": 0,
+      "controlTime": {
+        "seconds": 15,
+        "raw": "0:15"
+      }
+    },
+    "fighter2": {
+      "knockdowns": 1,
+      "significantStrikes": {
+        "landed": 32,
+        "attempted": 60
+      },
+      "significantStrikePercentage": 53,
+      "totalStrikes": {
+        "landed": 32,
+        "attempted": 60
+      },
+      "takedowns": {
+        "landed": 0,
+        "attempted": 0
+      },
+      "takedownPercentage": null,
+      "submissionAttempts": 0,
+      "reversals": 0,
+      "controlTime": {
+        "seconds": 0,
+        "raw": "0:00"
+      }
+    }
+  },
+  "generalStatsByRound": [
+    {
+      "round": 1,
+      "fighter1": {
+        "knockdowns": 0,
+        "significantStrikes": {
+          "landed": 25,
+          "attempted": 49
+        },
+        "significantStrikePercentage": 51,
+        "totalStrikes": {
+          "landed": 26,
+          "attempted": 50
+        },
+        "takedowns": {
+          "landed": 0,
+          "attempted": 1
+        },
+        "takedownPercentage": 0,
+        "submissionAttempts": 0,
+        "reversals": 0,
+        "controlTime": {
+          "seconds": 15,
+          "raw": "0:15"
+        }
+      },
+      "fighter2": {
+        "knockdowns": 1,
+        "significantStrikes": {
+          "landed": 32,
+          "attempted": 60
+        },
+        "significantStrikePercentage": 53,
+        "totalStrikes": {
+          "landed": 32,
+          "attempted": 60
+        },
+        "takedowns": {
+          "landed": 0,
+          "attempted": 0
+        },
+        "takedownPercentage": null,
+        "submissionAttempts": 0,
+        "reversals": 0,
+        "controlTime": {
+          "seconds": 0,
+          "raw": "0:00"
+        }
+      }
+    }
+  ],
+  "strikesBreakdown": {
+    "fighter1": {
+      "total": {
+        "landed": 25,
+        "attempted": 49
+      },
+      "percentage": 51,
+      "head": {
+        "landed": 16,
+        "attempted": 38
+      },
+      "body": {
+        "landed": 4,
+        "attempted": 6
+      },
+      "leg": {
+        "landed": 5,
+        "attempted": 5
+      },
+      "distance": {
+        "landed": 23,
+        "attempted": 45
+      },
+      "clinch": {
+        "landed": 2,
+        "attempted": 4
+      },
+      "ground": {
+        "landed": 0,
+        "attempted": 0
+      }
+    },
+    "fighter2": {
+      "total": {
+        "landed": 32,
+        "attempted": 60
+      },
+      "percentage": 53,
+      "head": {
+        "landed": 17,
+        "attempted": 45
+      },
+      "body": {
+        "landed": 8,
+        "attempted": 8
+      },
+      "leg": {
+        "landed": 7,
+        "attempted": 7
+      },
+      "distance": {
+        "landed": 32,
+        "attempted": 58
+      },
+      "clinch": {
+        "landed": 0,
+        "attempted": 2
+      },
+      "ground": {
+        "landed": 0,
+        "attempted": 0
+      }
+    }
+  },
+  "strikesBreakdownByRound": [
+    {
+      "round": 1,
+      "fighter1": {
+        "total": {
+          "landed": 25,
+          "attempted": 49
+        },
+        "percentage": 51,
+        "head": {
+          "landed": 16,
+          "attempted": 38
+        },
+        "body": {
+          "landed": 4,
+          "attempted": 6
+        },
+        "leg": {
+          "landed": 5,
+          "attempted": 5
+        },
+        "distance": {
+          "landed": 23,
+          "attempted": 45
+        },
+        "clinch": {
+          "landed": 2,
+          "attempted": 4
+        },
+        "ground": {
+          "landed": 0,
+          "attempted": 0
+        }
+      },
+      "fighter2": {
+        "total": {
+          "landed": 32,
+          "attempted": 60
+        },
+        "percentage": 53,
+        "head": {
+          "landed": 17,
+          "attempted": 45
+        },
+        "body": {
+          "landed": 8,
+          "attempted": 8
+        },
+        "leg": {
+          "landed": 7,
+          "attempted": 7
+        },
+        "distance": {
+          "landed": 32,
+          "attempted": 58
+        },
+        "clinch": {
+          "landed": 0,
+          "attempted": 2
+        },
+        "ground": {
+          "landed": 0,
+          "attempted": 0
+        }
+      }
+    }
+  ]
+}

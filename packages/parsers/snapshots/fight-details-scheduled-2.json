@@ -1,0 +1,19 @@
+{
+  "eventExternalId": "754968e325d6f60d",
+  "eventName": "UFC Fight Night: Walker vs. Zhang",
+  "fighter1": {
+    "externalId": "7498b3ac79a3b948",
+    "name": "Taiyilake Nueraji"
+  },
+  "fighter2": {
+    "externalId": "4729c93ba705a3bf",
+    "name": "Kiefer Crosbie"
+  },
+  "weightClass": {
+    "weightClass": "Welterweight",
+    "raw": "Welterweight Bout"
+  },
+  "title": {
+    "isTitle": false
+  }
+}

@@ -15,6 +15,16 @@ bun run typegen
 bun run db:test
 ```
 
+## Edge Functions
+
+```bash
+# Deploy a function
+bunx supabase functions deploy [function name] --use-api --project-ref asqybhgaovcdrjxsnoej
+
+# List available functions
+bunx supabase functions --help
+```
+
 ## Resetting Migration History
 
 Use this when the migration history has drifted from the live schema (a "baseline migration"):

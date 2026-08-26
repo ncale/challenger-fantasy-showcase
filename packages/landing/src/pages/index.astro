@@ -1,0 +1,39 @@
+---
+import { AppShowcaseSection } from "~/components/Blocks/AppShowcaseSection";
+import { FinalCTA } from "~/components/Blocks/FinalCTA";
+import { HeroSection } from "~/components/Blocks/HeroSection";
+import { HowItWorksSection } from "~/components/Blocks/HowItWorksSection";
+import { StatsPreviewSection } from "~/components/Blocks/StatsPreviewSection";
+import DefaultLayout from "~/layouts/DefaultLayout.astro";
+import "~/styles/global.css";
+import { LINKS, SITE_CONTENT } from "@challenger-fantasy/core";
+---
+
+<DefaultLayout>
+	<main class="flex-1">
+		<HeroSection
+			heading={SITE_CONTENT.LANDING.HERO_TITLE}
+			description={SITE_CONTENT.LANDING.HERO_SUBTEXT}
+			heroImage="/hero_image.webp"
+			appStoreUrl={LINKS.IOS_STORE_URL}
+		/>
+
+		<HowItWorksSection client:visible />
+
+		<AppShowcaseSection
+			client:visible
+			screens={[
+				{ image: "/device-1.png", caption: "Browse Games" },
+				{ image: "/device-2.png", caption: "Live Draft" },
+				{ image: "/device-3.png", caption: "Game Rules" },
+			]}
+		/>
+
+		<StatsPreviewSection client:visible />
+
+		<FinalCTA
+			heading={SITE_CONTENT.LANDING.FINAL_CTA}
+			appStoreUrl={LINKS.IOS_STORE_URL}
+		/>
+	</main>
+</DefaultLayout>

@@ -1,0 +1,1 @@
+alter table "public"."hero_fighter_game_entry" add column user_id uuid references "auth"."users"(id);

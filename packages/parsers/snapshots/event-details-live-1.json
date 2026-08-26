@@ -1,0 +1,223 @@
+{
+  "name": "UFC Fight Night: Imavov vs. Borralho",
+  "eventDate": {
+    "iso": "2025-09-06T00:00:00.000Z",
+    "raw": "September 06, 2025"
+  },
+  "location": {
+    "city": "Paris",
+    "stateOrRegion": "Ile-de-France",
+    "country": "France",
+    "raw": "Paris, Ile-de-France, France"
+  },
+  "fights": [
+    {
+      "externalId": "5bcd8abf6da01dae",
+      "fighter1": {
+        "externalId": "881bf86d4cba8578",
+        "name": "Nassourdine Imavov"
+      },
+      "fighter2": {
+        "externalId": "4126a78111c0855a",
+        "name": "Caio Borralho"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "d14fea43712707f0",
+      "fighter1": {
+        "externalId": "c2299ec916bc7c56",
+        "name": "Benoit Saint Denis"
+      },
+      "fighter2": {
+        "externalId": "9c393e836a852f30",
+        "name": "Mauricio Ruffy"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "0149e875b31e57f8",
+      "fighter1": {
+        "externalId": "476fe566d2df676e",
+        "name": "Modestas Bukauskas"
+      },
+      "fighter2": {
+        "externalId": "eabf206b162b3b83",
+        "name": "Paul Craig"
+      },
+      "weightClass": {
+        "weightClass": "Light Heavyweight",
+        "raw": "Light Heavyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "69b31593175f77ec",
+      "fighter1": {
+        "externalId": "4bdedbdeedff7d1d",
+        "name": "Bolaji Oki"
+      },
+      "fighter2": {
+        "externalId": "f6ad6a1e4d600e0d",
+        "name": "Mason Jones"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "a47123ae6e048f11",
+      "fighter1": {
+        "externalId": "1d2d98ddd05b38fb",
+        "name": "Axel Sola"
+      },
+      "fighter2": {
+        "externalId": "f748267c4ab6c127",
+        "name": "Rhys McKee"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "b53031bf4bd0a330",
+      "fighter1": {
+        "externalId": "e1d40e8782d80bc2",
+        "name": "William Gomis"
+      },
+      "fighter2": {
+        "externalId": "92aed9d16794f42b",
+        "name": "Robert Ruchala"
+      },
+      "weightClass": {
+        "weightClass": "Featherweight",
+        "raw": "Featherweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "4080b4310d82b42d",
+      "fighter1": {
+        "externalId": "46e2011d92463b7e",
+        "name": "Oumar Sy"
+      },
+      "fighter2": {
+        "externalId": "49edd0d90f60fb7d",
+        "name": "Brendson Ribeiro"
+      },
+      "weightClass": {
+        "weightClass": "Light Heavyweight",
+        "raw": "Light Heavyweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "23dbe713c4294c66",
+      "fighter1": {
+        "externalId": "7d8435c56043b0ae",
+        "name": "Ante Delija"
+      },
+      "fighter2": {
+        "externalId": "c9cf753cfdf77fc2",
+        "name": "Marcin Tybura"
+      },
+      "weightClass": {
+        "weightClass": "Heavyweight",
+        "raw": "Heavyweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "5cd2dd6075fadcce",
+      "fighter1": {
+        "externalId": "ec13c393d029297d",
+        "name": "Kaue Fernandes"
+      },
+      "fighter2": {
+        "externalId": "2dbc60c52de126d8",
+        "name": "Harry Hardwick"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "420211200a35c1d1",
+      "fighter1": {
+        "externalId": "8b6e5dc2ba1edbe7",
+        "name": "Sam Patterson"
+      },
+      "fighter2": {
+        "externalId": "31dbfbe4e7a6727c",
+        "name": "Trey Waters"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "b3253e2c2d111030",
+      "fighter1": {
+        "externalId": "f96856f9d69fd7e4",
+        "name": "Robert Bryczek"
+      },
+      "fighter2": {
+        "externalId": "0c6d9ea8306c029e",
+        "name": "Brad Tavares"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "d56a59a4c79cf515",
+      "fighter1": {
+        "externalId": "8f765fd5775a8873",
+        "name": "Rinat Fakhretdinov"
+      },
+      "fighter2": {
+        "externalId": "2caf993f53541fa1",
+        "name": "Andreas Gustafsson"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": "fighter1"
+    },
+    {
+      "externalId": "a38010639e61885c",
+      "fighter1": {
+        "externalId": "e94085e821bd81de",
+        "name": "Sam Hughes"
+      },
+      "fighter2": {
+        "externalId": "9c442aaf149ea982",
+        "name": "Shauna Bannon"
+      },
+      "weightClass": {
+        "weightClass": "Women's Strawweight",
+        "raw": "Women's Strawweight"
+      },
+      "winner": "fighter1"
+    }
+  ]
+}

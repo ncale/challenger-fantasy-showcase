@@ -1,0 +1,27 @@
+{
+  "name": "@challenger-fantasy/core",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "test": "echo 'no tests yet'"
+  },
+  "x-quality": "typecheck-only",
+  "dependencies": {
+    "@challenger-fantasy/models": "workspace:*",
+    "@challenger-fantasy/logger": "workspace:*",
+    "@challenger-fantasy/schemas": "workspace:*",
+    "@challenger-fantasy/types": "workspace:*",
+    "@challenger-fantasy/utils": "workspace:*",
+    "@challenger-fantasy/shared": "workspace:*",
+    "@noble/hashes": "^2.0.1",
+    "decimal.js": "^10.6.0",
+    "linkedom": "catalog:parsers",
+    "uuid": "^13.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+      "@challenger-fantasy/*": ["../*/src"]
+    }
+  },
+  "include": ["src", "worker-configuration.d.ts"],
+  "exclude": ["node_modules"]
+}

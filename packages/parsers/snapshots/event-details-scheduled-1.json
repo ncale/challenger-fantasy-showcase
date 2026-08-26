@@ -1,0 +1,207 @@
+{
+  "name": "UFC Fight Night: Walker vs. Zhang",
+  "eventDate": {
+    "iso": "2025-08-23T00:00:00.000Z",
+    "raw": "August 23, 2025"
+  },
+  "location": {
+    "city": "Shanghai",
+    "stateOrRegion": "Hebei",
+    "country": "China",
+    "raw": "Shanghai, Hebei, China"
+  },
+  "fights": [
+    {
+      "externalId": "2eecf0c36192e40c",
+      "fighter1": {
+        "externalId": "c21f26bbde777573",
+        "name": "Johnny Walker"
+      },
+      "fighter2": {
+        "externalId": "8a65fd9ba31fd3f7",
+        "name": "Zhang Mingyang"
+      },
+      "weightClass": {
+        "weightClass": "Light Heavyweight",
+        "raw": "Light Heavyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "58080e8989927500",
+      "fighter1": {
+        "externalId": "def8166ff24bd237",
+        "name": "Brian Ortega"
+      },
+      "fighter2": {
+        "externalId": "cb696ebfb6598724",
+        "name": "Aljamain Sterling"
+      },
+      "weightClass": {
+        "weightClass": "Featherweight",
+        "raw": "Featherweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "5538d15c4eeac3b3",
+      "fighter1": {
+        "externalId": "f14cf73e51b29254",
+        "name": "Sergei Pavlovich"
+      },
+      "fighter2": {
+        "externalId": "fc08099550072fe4",
+        "name": "Waldo Cortes-Acosta"
+      },
+      "weightClass": {
+        "weightClass": "Heavyweight",
+        "raw": "Heavyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "ce6bd165bef82bd7",
+      "fighter1": {
+        "externalId": "3cf18e01cb6cbde3",
+        "name": "Sumudaerji"
+      },
+      "fighter2": {
+        "externalId": "34b96d52db1d26e6",
+        "name": "Kevin Borjas"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "1452c20d964c0a63",
+      "fighter1": {
+        "externalId": "7498b3ac79a3b948",
+        "name": "Taiyilake Nueraji"
+      },
+      "fighter2": {
+        "externalId": "4729c93ba705a3bf",
+        "name": "Kiefer Crosbie"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "0b1460c666e66d39",
+      "fighter1": {
+        "externalId": "8c1ca54b5089d199",
+        "name": "Maheshate"
+      },
+      "fighter2": {
+        "externalId": "b2a78df161bd67f9",
+        "name": "Gauge Young"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "1ab1ed99a4bc5494",
+      "fighter1": {
+        "externalId": "bb2c3c3a466224af",
+        "name": "Lone'er Kavanagh"
+      },
+      "fighter2": {
+        "externalId": "814e5233e2acf2ee",
+        "name": "Charles Johnson"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "f55749e32ce5c6f3",
+      "fighter1": {
+        "externalId": "a13d755965a4ec9f",
+        "name": "Rongzhu"
+      },
+      "fighter2": {
+        "externalId": "d2cd7a69cc55e7ed",
+        "name": "Austin Hubbard"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "130e622d4d2aee3e",
+      "fighter1": {
+        "externalId": "595db60957de51d3",
+        "name": "Michel Pereira"
+      },
+      "fighter2": {
+        "externalId": "d6c0cdd7e467c440",
+        "name": "Kyle Daukaus"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "f0b7caa90faf47e5",
+      "fighter1": {
+        "externalId": "3f11fd1751fa83b1",
+        "name": "Yizha"
+      },
+      "fighter2": {
+        "externalId": "7b3503352cd53abb",
+        "name": "Westin Wilson"
+      },
+      "weightClass": {
+        "weightClass": "Featherweight",
+        "raw": "Featherweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "2f6065fe0804d1d8",
+      "fighter1": {
+        "externalId": "86bace9e4ad85542",
+        "name": "Xiao Long"
+      },
+      "fighter2": {
+        "externalId": "a474aade8eb3a8f0",
+        "name": "SuYoung You"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "7fc5f1dc2df84ac7",
+      "fighter1": {
+        "externalId": "02f484417a6fa69d",
+        "name": "Uran Satybaldiev"
+      },
+      "fighter2": {
+        "externalId": "709fadb644ee3f51",
+        "name": "Diyar Nurgozhay"
+      },
+      "weightClass": {
+        "weightClass": "Light Heavyweight",
+        "raw": "Light Heavyweight"
+      },
+      "winner": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "eventExternalId": "754968e325d6f60d",
+  "eventName": "UFC Fight Night: Walker vs. Zhang",
+  "fighter1": {
+    "externalId": "c21f26bbde777573",
+    "name": "Johnny Walker"
+  },
+  "fighter2": {
+    "externalId": "8a65fd9ba31fd3f7",
+    "name": "Zhang Mingyang"
+  },
+  "weightClass": {
+    "weightClass": "Light Heavyweight",
+    "raw": "Light Heavyweight Bout"
+  },
+  "title": {
+    "isTitle": false
+  }
+}

@@ -1,0 +1,2 @@
+ALTER TABLE public.fight
+ADD COLUMN slug VARCHAR(255) UNIQUE;

@@ -1,0 +1,47 @@
+{
+  "name": "UFC Fight Night",
+  "eventDate": {
+    "iso": "2026-07-18T00:00:00.000Z",
+    "raw": "July 18, 2026"
+  },
+  "location": {
+    "city": "Oklahoma City",
+    "stateOrRegion": "Oklahoma",
+    "country": "USA",
+    "raw": "Oklahoma City, Oklahoma, USA"
+  },
+  "fights": [
+    {
+      "externalId": "b6bc64be8ce452e6",
+      "fighter1": {
+        "externalId": "0c6d9ea8306c029e",
+        "name": "Brad Tavares"
+      },
+      "fighter2": {
+        "externalId": "8e9eb3fc86db0f7d",
+        "name": "Marc-Andre Barriault"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "f2abca7379982d4f",
+      "fighter1": {
+        "externalId": "971246648e162f0d",
+        "name": "Chase Hooper"
+      },
+      "fighter2": {
+        "externalId": "e99eb0ef25885de5",
+        "name": "Mitch Ramirez"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": null
+    }
+  ]
+}

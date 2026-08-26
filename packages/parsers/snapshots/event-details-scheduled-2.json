@@ -1,0 +1,207 @@
+{
+  "name": "UFC Fight Night: Dolidze vs. Hernandez",
+  "eventDate": {
+    "iso": "2025-08-09T00:00:00.000Z",
+    "raw": "August 09, 2025"
+  },
+  "location": {
+    "city": "Las Vegas",
+    "stateOrRegion": "Nevada",
+    "country": "USA",
+    "raw": "Las Vegas, Nevada, USA"
+  },
+  "fights": [
+    {
+      "externalId": "68fe62bac7fd8bb0",
+      "fighter1": {
+        "externalId": "327d5f279895110d",
+        "name": "Roman Dolidze"
+      },
+      "fighter2": {
+        "externalId": "093e1f5bb73850be",
+        "name": "Anthony Hernandez"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "37d58369782cb86b",
+      "fighter1": {
+        "externalId": "32ab52e5de93092d",
+        "name": "Steve Erceg"
+      },
+      "fighter2": {
+        "externalId": "6d68c1afe954f121",
+        "name": "Ode Osbourne"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "646c79a7ecd12e5f",
+      "fighter1": {
+        "externalId": "abcf2cc6efc42031",
+        "name": "Iasmin Lucindo"
+      },
+      "fighter2": {
+        "externalId": "f0feeb2192937424",
+        "name": "Angela Hill"
+      },
+      "weightClass": {
+        "weightClass": "Women's Strawweight",
+        "raw": "Women's Strawweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "98d6771af9b0ebe5",
+      "fighter1": {
+        "externalId": "8fd808923cffff82",
+        "name": "Andre Fili"
+      },
+      "fighter2": {
+        "externalId": "5ec591b78349ba7e",
+        "name": "Christian Rodriguez"
+      },
+      "weightClass": {
+        "weightClass": "Featherweight",
+        "raw": "Featherweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "ed5383b50ffcdded",
+      "fighter1": {
+        "externalId": "46e0d677f91bacc0",
+        "name": "Miles Johns"
+      },
+      "fighter2": {
+        "externalId": "ffd3224638c01b57",
+        "name": "Jean Matsumoto"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "75a84211f50c53f5",
+      "fighter1": {
+        "externalId": "cad24459b28592ca",
+        "name": "Eryk Anders"
+      },
+      "fighter2": {
+        "externalId": "a93f94c923c3a9cb",
+        "name": "Christian Leroy Duncan"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "3d6571790c21527c",
+      "fighter1": {
+        "externalId": "6add18754930182b",
+        "name": "Julius Walker"
+      },
+      "fighter2": {
+        "externalId": "09a4447655fd4b7b",
+        "name": "Rafael Cerqueira"
+      },
+      "weightClass": {
+        "weightClass": "Light Heavyweight",
+        "raw": "Light Heavyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "ae7a8f19743e8154",
+      "fighter1": {
+        "externalId": "7478b7f959ba61f5",
+        "name": "Elijah Smith"
+      },
+      "fighter2": {
+        "externalId": "148bb103cfbf123e",
+        "name": "Toshiomi Kazama"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "aef44145740741b3",
+      "fighter1": {
+        "externalId": "f9ab66e67240db7b",
+        "name": "Joselyne Edwards"
+      },
+      "fighter2": {
+        "externalId": "b1e5bcaad32a3cac",
+        "name": "Priscila Cachoeira"
+      },
+      "weightClass": {
+        "weightClass": "Women's Bantamweight",
+        "raw": "Women's Bantamweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "7d923267c44dd93b",
+      "fighter1": {
+        "externalId": "681399317dbf4701",
+        "name": "Uros Medic"
+      },
+      "fighter2": {
+        "externalId": "b12fb759e02378de",
+        "name": "Gilbert Urbina"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "6ef50ed03b116b60",
+      "fighter1": {
+        "externalId": "a6eb54ae17a551be",
+        "name": "Gabriella Fernandes"
+      },
+      "fighter2": {
+        "externalId": "a78a87d8c2bbb1cb",
+        "name": "Julija Stoliarenko"
+      },
+      "weightClass": {
+        "weightClass": "Women's Flyweight",
+        "raw": "Women's Flyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "857e8facd8ff7c36",
+      "fighter1": {
+        "externalId": "f14f644d41ade29f",
+        "name": "Cody Brundage"
+      },
+      "fighter2": {
+        "externalId": "9508cc6184cb2450",
+        "name": "Eric McConico"
+      },
+      "weightClass": {
+        "weightClass": "Light Heavyweight",
+        "raw": "Light Heavyweight"
+      },
+      "winner": null
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <!-- Background circle -->
+  <circle cx="60.0" cy="60.0" r="46" fill="currentColor" />
+  <circle cx="46.0" cy="60.0" r="10" fill="#ffffff"/>
+  <circle cx="74.0" cy="60.0" r="10" fill="#ffffff"/>
+</svg>

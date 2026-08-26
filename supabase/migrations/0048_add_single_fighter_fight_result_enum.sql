@@ -1,0 +1,1 @@
+create type public.single_fighter_fight_result as enum ('winner', 'loser', 'draw', 'no-contest');

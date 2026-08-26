@@ -1,0 +1,20 @@
+{
+  "eventExternalId": "8944a0f9b2f0ce6d",
+  "eventName": "UFC 320: Ankalaev vs. Pereira 2",
+  "fighter1": {
+    "externalId": "d802174b0c0c1f4e",
+    "name": "Magomed Ankalaev"
+  },
+  "fighter2": {
+    "externalId": "e5549c82bfb5582d",
+    "name": "Alex Pereira"
+  },
+  "weightClass": {
+    "weightClass": "Light Heavyweight",
+    "raw": "UFC Light Heavyweight Title Bout"
+  },
+  "title": {
+    "isTitle": true,
+    "name": "UFC Light Heavyweight Title"
+  }
+}

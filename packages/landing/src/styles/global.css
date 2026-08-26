@@ -1,0 +1,225 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+/* TODO: move this to a shared package */
+
+@custom-variant dark (&:is(.dark *));
+
+body {
+  font-family: "Archivo Variable", sans-serif;
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --spacing-header-height: var(--header-height);
+  --spacing-sidebar-width: var(--sidebar-width);
+  --spacing-page-gap: var(--page-gap);
+
+  /* available for backwards compatibility */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* default colors */
+  --color-bg-base-100: var(--dui-base-100);
+  --color-bg-base-200: var(--dui-base-200);
+  --color-bg-base-300: var(--dui-base-300);
+  --color-bg-base-foreground: var(--dui-base-content);
+  --color-primary: var(--dui-primary);
+  --color-primary-foreground: var(--dui-primary-content);
+  --color-secondary: var(--dui-secondary);
+  --color-secondary-foreground: var(--dui-secondary-content);
+  --color-color-accent: var(--dui-accent);
+  --color-color-accent-foreground: var(--dui-accent-content);
+  --color-neutral: var(--dui-neutral);
+  --color-neutral-foreground: var(--dui-neutral-content);
+  --color-info: var(--dui-info);
+  --color-info-foreground: var(--dui-info-content);
+  --color-success: var(--dui-success);
+  --color-success-foreground: var(--dui-success-content);
+  --color-warning: var(--dui-warning);
+  --color-warning-foreground: var(--dui-warning-content);
+  --color-error: var(--dui-error);
+  --color-error-foreground: var(--dui-error-content);
+
+  /* custom colors */
+  --color-link-blue: var(--link-blue);
+  --color-focus-blue: var(--focus-blue);
+  --color-champion-gold: var(--champion-gold);
+  --color-challenger-blue: #0000FF;
+}
+
+:root {
+  --radius: 0.625rem;
+  --header-height: 5rem;
+  --sidebar-width: 16rem;
+  --page-gap: 0.75rem;
+
+  /* shadcn/ui default colors */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+
+  /* primary light theme (daisyui emerald) */
+  --dui-base-100: oklch(100% 0 0);
+  --dui-base-200: oklch(93% 0 0);
+  --dui-base-300: oklch(86% 0 0);
+  --dui-base-content: oklch(35.519% 0.032 262.988);
+  --dui-primary: oklch(76.662% 0.135 153.45);
+  --dui-primary-content: oklch(33.387% 0.04 162.24);
+  --dui-secondary: oklch(61.302% 0.202 261.294);
+  --dui-secondary-content: oklch(100% 0 0);
+  --dui-accent: oklch(72.772% 0.149 33.2);
+  --dui-accent-content: oklch(0% 0 0);
+  --dui-neutral: oklch(35.519% 0.032 262.988);
+  --dui-neutral-content: oklch(98.462% 0.001 247.838);
+  --dui-info: oklch(72.06% 0.191 231.6);
+  --dui-info-content: oklch(0% 0 0);
+  --dui-success: oklch(64.8% 0.15 160);
+  --dui-success-content: oklch(0% 0 0);
+  --dui-warning: oklch(84.71% 0.199 83.87);
+  --dui-warning-content: oklch(0% 0 0);
+  --dui-error: oklch(71.76% 0.221 22.18);
+  --dui-error-content: oklch(0% 0 0);
+
+  /* custom colors */
+  --link-blue: oklch(62.3% 0.214 259.815);
+  --focus-blue: oklch(62.3% 0.214 259.815);
+  --champion-gold: oklch(79.5% 0.184 86.047);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+}
+
+.dark {
+  /* shadcn/ui default colors */
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+
+  /* primary dark theme (daisyui business) */
+  --dui-base-100: oklch(24.353% 0 0);
+  --dui-base-200: oklch(22.648% 0 0);
+  --dui-base-300: oklch(20.944% 0 0);
+  --dui-base-content: oklch(84.87% 0 0);
+  --dui-primary: oklch(41.703% 0.099 251.473);
+  --dui-primary-content: oklch(88.34% 0.019 251.473);
+  --dui-secondary: oklch(64.092% 0.027 229.389);
+  --dui-secondary-content: oklch(12.818% 0.005 229.389);
+  --dui-accent: oklch(67.271% 0.167 35.791);
+  --dui-accent-content: oklch(13.454% 0.033 35.791);
+  --dui-neutral: oklch(27.441% 0.013 253.041);
+  --dui-neutral-content: oklch(85.488% 0.002 253.041);
+  --dui-info: oklch(62.616% 0.143 240.033);
+  --dui-info-content: oklch(12.523% 0.028 240.033);
+  --dui-success: oklch(70.226% 0.094 156.596);
+  --dui-success-content: oklch(14.045% 0.018 156.596);
+  --dui-warning: oklch(77.482% 0.115 81.519);
+  --dui-warning-content: oklch(15.496% 0.023 81.519);
+  --dui-error: oklch(51.61% 0.146 29.674);
+  --dui-error-content: oklch(90.322% 0.029 29.674);
+
+  /* custom colors */
+  --link-blue: oklch(70.7% 0.165 254.624);
+  --focus-blue: oklch(70.7% 0.165 254.624);
+  --champion-gold: oklch(79.5% 0.184 86.047);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  .page-container-landing {
+    @apply p-0 m-0;
+  }
+  .page-container {
+    @apply max-w-2xl mx-auto px-2 sm:px-4 lg:px-6 py-4;
+  }
+  .page-container-wide {
+    @apply max-w-6xl mx-auto px-2 sm:px-6 lg:px-8 py-8;
+  }
+}

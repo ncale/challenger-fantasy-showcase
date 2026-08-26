@@ -1,0 +1,207 @@
+{
+  "name": "UFC Fight Night: Fiziev vs. Torres",
+  "eventDate": {
+    "iso": "2026-06-27T00:00:00.000Z",
+    "raw": "June 27, 2026"
+  },
+  "location": {
+    "city": "Baku",
+    "stateOrRegion": null,
+    "country": "Azerbaijan",
+    "raw": "Baku, Azerbaijan"
+  },
+  "fights": [
+    {
+      "externalId": "c13dc0cccef263f7",
+      "fighter1": {
+        "externalId": "c814b4c899793af6",
+        "name": "Rafael Fiziev"
+      },
+      "fighter2": {
+        "externalId": "2e7878927067fdca",
+        "name": "Manuel Torres"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "012c307c9d446c4d",
+      "fighter1": {
+        "externalId": "06734ca9d88dec3a",
+        "name": "Shara Magomedov"
+      },
+      "fighter2": {
+        "externalId": "595db60957de51d3",
+        "name": "Michel Pereira"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "809814f03ff3140c",
+      "fighter1": {
+        "externalId": "ff62013d2fce6d13",
+        "name": "Nazim Sadykhov"
+      },
+      "fighter2": {
+        "externalId": "72f890c5d421e705",
+        "name": "Matheus Camilo"
+      },
+      "weightClass": {
+        "weightClass": "Lightweight",
+        "raw": "Lightweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "81cde317c156723b",
+      "fighter1": {
+        "externalId": "8d3273573b85be09",
+        "name": "Asu Almabayev"
+      },
+      "fighter2": {
+        "externalId": "814e5233e2acf2ee",
+        "name": "Charles Johnson"
+      },
+      "weightClass": {
+        "weightClass": "Flyweight",
+        "raw": "Flyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "d83294b031502177",
+      "fighter1": {
+        "externalId": "b07aed698fba8624",
+        "name": "Ikram Aliskerov"
+      },
+      "fighter2": {
+        "externalId": "1e719d4b676dc19a",
+        "name": "Brunno Ferreira"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "35985895d4ef321e",
+      "fighter1": {
+        "externalId": "36b8f265bcd1b7a4",
+        "name": "Abus Magomedov"
+      },
+      "fighter2": {
+        "externalId": "0d65c432720accb9",
+        "name": "Michal Oleksiejczuk"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "6a35ff33b8597904",
+      "fighter1": {
+        "externalId": "c88f8a9c1ea7165d",
+        "name": "Farman Hasanov"
+      },
+      "fighter2": {
+        "externalId": "64b12fe31be7560c",
+        "name": "Eric Nolan"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "48b1ee7ab45add4c",
+      "fighter1": {
+        "externalId": "95aff2fd8d09a5f0",
+        "name": "Abdul Rakhman Yakhyaev"
+      },
+      "fighter2": {
+        "externalId": "6add18754930182b",
+        "name": "Julius Walker"
+      },
+      "weightClass": {
+        "weightClass": "Light Heavyweight",
+        "raw": "Light Heavyweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "67ed401d19815784",
+      "fighter1": {
+        "externalId": "6a96ad1bc34fb113",
+        "name": "Ismail Naurdiev"
+      },
+      "fighter2": {
+        "externalId": "7acbb0972e75281a",
+        "name": "Marvin Vettori"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "5e7f4ba1210f433d",
+      "fighter1": {
+        "externalId": "49d2a08964c5eb11",
+        "name": "Nursulton Ruziboev"
+      },
+      "fighter2": {
+        "externalId": "22e07d3da1aa3475",
+        "name": "Andrey Pulyaev"
+      },
+      "weightClass": {
+        "weightClass": "Middleweight",
+        "raw": "Middleweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "e62abbb17acc1e3a",
+      "fighter1": {
+        "externalId": "70dd69b6a703257e",
+        "name": "Daniil Donchenko"
+      },
+      "fighter2": {
+        "externalId": "2caf993f53541fa1",
+        "name": "Andreas Gustafsson"
+      },
+      "weightClass": {
+        "weightClass": "Welterweight",
+        "raw": "Welterweight"
+      },
+      "winner": null
+    },
+    {
+      "externalId": "ae0a91c8f92f4758",
+      "fighter1": {
+        "externalId": "a4dc0f2b95df4cc1",
+        "name": "Bekzat Almakhan"
+      },
+      "fighter2": {
+        "externalId": "ffd3224638c01b57",
+        "name": "Jean Matsumoto"
+      },
+      "weightClass": {
+        "weightClass": "Bantamweight",
+        "raw": "Bantamweight"
+      },
+      "winner": null
+    }
+  ]
+}
