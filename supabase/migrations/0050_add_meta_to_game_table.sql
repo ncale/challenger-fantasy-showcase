@@ -1,1 +1,0 @@
-alter table daily_mma_game add column metadata jsonb not null default '{}'::jsonb;
