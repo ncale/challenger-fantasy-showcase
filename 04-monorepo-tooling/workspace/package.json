@@ -1,0 +1,60 @@
+{
+  "name": "challenger-fantasy",
+  "private": true,
+  "packageManager": "bun@1.2.22",
+  "workspaces": ["packages/*"],
+  "catalog": {
+    "vite": "7.1.7",
+    "@tailwindcss/vite": "4.1.14",
+    "tailwindcss": "4.1.14",
+    "tailwind-merge": "3.3.1",
+    "wrangler": "4.106.0"
+  },
+  "catalogs": {
+    "api": {
+      "hono": "4.9.6"
+    },
+    "parsers": {
+      "linkedom": "0.18.12"
+    },
+    "ui": {
+      "react": "19.1.0",
+      "react-dom": "19.1.0",
+      "@types/react": "19.1.10",
+      "@types/react-dom": "19.1.0"
+    },
+    "tanstack": {
+      "@tanstack/react-query": "^5.90.5"
+    },
+    "supabase": {
+      "@supabase/supabase-js": "2.78.0",
+      "@supabase/ssr": "0.7.0"
+    },
+    "zod": {
+      "zod": "4.1.12",
+      "@hono/zod-openapi": "1.1.5"
+    }
+  },
+  "scripts": {
+    "status": "bun run scripts/status.ts",
+    "lint": "bunx biome lint --write",
+    "format": "bunx biome format --write",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "typecheck:packages": "bun run --filter '*' typecheck",
+    "test": "bun run --filter '*' test",
+    "ci": "bun run check && bun run typecheck && bun run test",
+    "typegen:db": "bunx supabase gen types typescript --project-id <SUPABASE_PROJECT_REF> --schema public,api,ops,reporting > packages/types/src/generated.ts",
+    "clean": "bunx rimraf node_modules",
+    "db:push": "supabase db push --db-url $DB_URL && bun run db:repeat",
+    "db:repeat": "bash ./supabase/sql/repeatable/apply.sh",
+    "db:test": "bash ./supabase/sql/tests/run_tests.sh"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "@types/bun": "latest",
+    "supabase": "^2.33.9",
+    "typescript": "5.9.3"
+  }
+}

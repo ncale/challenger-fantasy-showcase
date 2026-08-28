@@ -1,0 +1,50 @@
+/**
+ * Trimmed from the real worker's wrangler.jsonc — only the parts relevant to
+ * the Durable Object bindings for the draft engine. Supabase project ref redacted.
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "challenger-fantasy-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-08-05",
+  "observability": {
+    "enabled": true
+  },
+  "compatibility_flags": ["nodejs_compat"],
+  /**
+   * Note: Use secrets to store sensitive data.
+   * https://developers.cloudflare.com/workers/configuration/secrets/
+   *
+   * These are non-sensitive.
+   */
+  "vars": {
+    "SUPABASE_PROJECT_ID": "<SUPABASE_PROJECT_REF>",
+    "SUPABASE_URL": "https://<SUPABASE_PROJECT_REF>.supabase.co",
+    "LOG_LEVEL": "info",
+    "PRETTY_LOGS": "false"
+  },
+  /**
+   * https://developers.cloudflare.com/durable-objects/
+   * DraftManager assigns users into lobbies; DraftServer owns turn-based draft state.
+   */
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "DRAFT_MANAGER",
+        "class_name": "DraftManager"
+      },
+      {
+        "name": "DRAFT_SERVER",
+        "class_name": "DraftServer"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["DraftManager", "DraftServer"]
+    }
+  ]
+}
